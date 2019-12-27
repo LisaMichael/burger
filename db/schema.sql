@@ -7,5 +7,6 @@ id int NOT NULL AUTO_INCREMENT ,
 burger_name varchar(200),
 devour boolen,
 
-PRIMARY KEY (id)
+PRIMARY KEY (id),
 );
+

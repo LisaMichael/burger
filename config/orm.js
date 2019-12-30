@@ -17,7 +17,6 @@ var orm = {
     },
 
     //orm create allows to creat new data 
-
     // orm update  allows us to update the data 
     update: function (tableInput, condition, cb) {
         connection.query('UPDATE ' + tableInput + ' SET devoured=true WHERE id=' + condition + ';', function (err, result) {
